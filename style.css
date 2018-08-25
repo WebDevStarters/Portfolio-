@@ -1,0 +1,41 @@
+.container div {
+
+  border: solid 1px white;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: 50px 200 50px;
+
+  grid-gap:3px;
+}
+.header {
+  grid-column: 1/-1;
+  background-color: dimgray;
+}
+.header li {
+  margin-left: 5%;
+  display: inline;
+
+}
+a:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+color: pink;
+
+}
+.Body {
+  grid-column: 1/-1;
+  background-color: white;
+
+
+}
+.foot {
+  grid-column: 1/-1;
+  background-color: dimgray;
+
+}
